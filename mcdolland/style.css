@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+.dust{
+    border: 2px solid #fcba03;
+    border-radius: 50%;
+    padding: 5px;
+}
+.bi-star-fill{
+    color: #FF9529;
+}
+.gray-text{
+    color: black;
+}
+.foot-1{
+    background-color: #FFCA2C;
+    color: black;
+}

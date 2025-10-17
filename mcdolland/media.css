@@ -1,0 +1,6 @@
+/* abb muje 768px ke niche wle screens pe mujhe innhe 100% ki width show krwnana h */
+@media (max-width:768px){
+    .card{
+        width: 100%;
+    }
+}
