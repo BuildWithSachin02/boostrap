@@ -1,0 +1,132 @@
+/*img ko display none krna rh h 1200px pe*/
+@media (max-width:1200px){
+    .custom-layout{
+        display: none;
+    }
+    .box-1{
+      width: auto;
+    }
+    .box-2{
+      display: flex;
+      justify-content: center;
+    }
+    .bg-content{
+      margin-top: 50px;
+    }
+    
+    
+}
+/* courses-btn ko mujhe xs mobible view me mujhe ussse scroll bnaa waaana h */
+/* abb mujhe btns kop scroll krna thaa css me chat gpt kiya taki logic build ho
+toh btns ko hme css me ek properties likhaa flex: 0 0 auto; diya 
+min-with:150px; diya taki btns ko ek fix width mile */
+@media (max-width:576px){
+    .course-btn{
+        overflow-x: scroll;
+        display: flex;
+        scrollbar-width: none;
+        gap: 5px;
+  }
+  .card-group{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .box-1{
+      width: auto;
+    }
+    
+   /* Chrome, Edge, Safari ke liye scrollbar hide */
+  .scroll-area::-webkit-scrollbar {
+    display: none;
+  }
+}
+/*sec-7 me do card usse scroll krna h */
+@media (max-width: 768px) {
+  .card-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    flex-wrap: nowrap;
+  }
+
+  .card-container::-webkit-scrollbar {
+    display: none;
+  }
+  .card-container .card {
+    flex: 0 0 85%; /* Each card 85% width lega */
+    scroll-snap-align: start;
+    width: auto;
+  }
+  .brand-img img{
+    width: 50px;
+  }
+   .cc1{
+    height: 30px;
+    width: auto;
+    margin-left: auto;
+  }
+  .learn-7{
+    display: none;
+  }
+  
+}
+/* card-group ko me disply grid lga deta huu qki usse control krna paa na nhi ho rhaa h */
+@media (max-width:1400px){
+   .course-card{
+    height: 200px;
+    width: 200px;
+    
+   }
+}
+/* sec-5 */
+    @media (max-width:992px){
+      .bg-right{
+        margin-top: 30px;
+      }
+    }
+             
+ /* sec-7*/
+ @media (max-width: 768px) {
+  .brand-track img {
+    height: 40px;
+    margin: 0 20px;
+  }
+  .brand-track {
+    animation: scroll-left 20s linear infinite;
+  }
+  .card-container{
+    overflow: hidden;
+  }
+}
+/* sec-1 ke btn ko width badhni h aur column set krwnaa h  */
+@media (max-width:423px){
+  .ex-1{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+}       
+/* sec-3 ke btn ko column me set krwna h*/
+
+@media (max-width:437px){
+    .dc-1{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: auto;
+      width: auto;  
+    }
+}
+
+@media (max-width:450px){
+  .jobs-1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
